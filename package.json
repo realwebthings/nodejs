@@ -1,0 +1,22 @@
+{
+  "name": "http-vs-http2-examples",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^6.0.0",
+    "mongoose": "^8.0.0",
+    "express": "^4.18.0",
+    "fastify": "^4.24.0",
+    "koa": "^2.14.0",
+    "@koa/router": "^12.0.0"
+  },
+  "scripts": {
+    "http-server": "node http-server.js",
+    "http-client": "node http-client.js",
+    "http2-server": "node http2-server.js",
+    "http2-client": "node http2-client.js",
+    "http2-simple": "node http2-simple.js",
+    "mongo-native": "node mongodb-native.js",
+    "mongoose": "node mongoose-example.js"
+  }
+}

@@ -1,7 +1,11 @@
 {
   "name": "http-vs-http2-examples",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
+  "workspaces": [
+    "concepts/*"
+  ],
   "dependencies": {
     "mongodb": "^6.0.0",
     "mongoose": "^8.0.0",

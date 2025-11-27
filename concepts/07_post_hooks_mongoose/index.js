@@ -2,12 +2,12 @@ import express from 'express';
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 
-const DB_URL = "mongodb+srv://mukeshkumar_db_user:4evJMFMyPS5SAkc5@learning-mongo.3zwstou.mongodb.net/posthooksdb";
+const MONGODB_URL = process.env.MONGODB_URL;
 
 const app = express();
 app.use(express.json());
 
-mongoose.connect(DB_URL).then(() => {
+mongoose.connect(MONGODB_URL).then(() => {
     console.log('Connected to MongoDB');
 }).catch(err => {
     console.error('Error connecting to MongoDB:', err);

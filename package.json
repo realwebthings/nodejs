@@ -7,13 +7,16 @@
     "concepts/*"
   ],
   "dependencies": {
-    "mongodb": "^6.0.0",
-    "mongoose": "^8.0.0",
+    "@koa/router": "^12.0.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
     "express": "^4.18.0",
     "fastify": "^4.24.0",
+    "jsonwebtoken": "^9.0.2",
     "koa": "^2.14.0",
-    "@koa/router": "^12.0.0",
-    "dotenv": "^16.0.0"
+    "mongodb": "^6.0.0",
+    "mongoose": "^9.0.0"
   },
   "scripts": {
     "http-server": "node http-server.js",
